@@ -1,0 +1,57 @@
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor: #3c3f45;
+  --transtion: all .4s linear
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.strokTest {
+  color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+}
+
+.blur {
+  background: rgba(253, 120, 43, .69);
+  border-radius: 50%;
+  -webkit-filter: blur(212px);
+  filter: blur(212px);
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+  position: absolute;
+  z-index: -9;
+}
+
+.hero-blur {
+  height: 30rem;
+  left: 0;
+  width: 22rem;
+}
+
+.hero-blur2 {
+  height: 30rem;
+  left: 30%;
+  width: 22rem;
+}
+.footer-blur{
+  background: red;
+  filter: blur(200px);
+    height: 12rem;
+    width: 26rem;
+    right: 15%;
+}
+.footer-blur2 {
+  background: #ff7300;
+  left: 15%;
+  height: 12rem;
+  width: 22rem;
+}

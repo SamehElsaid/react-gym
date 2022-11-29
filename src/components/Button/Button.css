@@ -1,0 +1,14 @@
+.btn button {
+    background-color: transparent;
+    color: white;
+    padding: 12px 30px;
+    border: 2px solid var(--orange);
+    font-weight: 600;
+    cursor: pointer;
+    transition:var(--transtion);
+}
+.btn button:hover{
+    background-color: #643f19 !important;
+    border: 2px solid #643f19 !important;
+    color: white !important;
+}

@@ -1,0 +1,118 @@
+.testim {
+    padding: 70px 0;
+}
+
+.testim h2 {
+    color: #fff;
+    display: flex;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 700;
+    gap: 5rem;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.plan {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plansData {
+    background: var(--caloryCard);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 18rem;
+}
+
+.plansData>svg {
+    fill: var(--orange);
+    height: 2rem;
+    width: 2rem;
+}
+
+.plansData>h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.plansData>h4 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.plansData img {
+    width: 1rem;
+}
+
+.features {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.plansData p {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.more {
+    font-family: Inter, sans-serif;
+}
+
+.plansData:nth-of-type(2) {
+    -webkit-transform: scale(1.1);
+    background: var(--planCard);
+}
+
+.plansData:nth-of-type(2) svg {
+    fill: white;
+}
+
+.btn.btn-new {
+    text-align: center;
+}
+
+.btn.btn-new button {
+    background-color: white;
+    color: #333;
+    border: 2px solid transparent;
+    display: block;
+    width: 100%;
+}
+
+.plansData:nth-of-type(2) .btn.btn-new button {
+    color: orange;
+}
+
+@media screen and (max-width:768px) {
+    .testim{
+        overflow: hidden;
+    }
+    .testim h2 {
+        display: grid;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+    }
+.hero-blur2{
+        display: none;
+}
+    .plan {
+        display: grid;
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+        .footer-blur2{
+            width: 100px;
+        }
+}

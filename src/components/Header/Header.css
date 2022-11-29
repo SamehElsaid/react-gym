@@ -1,0 +1,131 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 20%;
+}
+
+.header>ul {
+    position: relative;
+    z-index: 2;
+    list-style: none;
+    font-weight: 600;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    padding: 0 30px;
+}
+
+.header>ul>li {
+    cursor: pointer;
+    transition: var(--transtion);
+}
+
+.header>ul>li:hover {
+    color: var(--orange);
+}
+
+.theBest {
+    background-color: #393d42;
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 20px 15px;
+    border-radius: 3rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+
+.theBest>div {
+    position: absolute;
+    width: 5rem;
+    height: 80%;
+    background-color: var(--orange);
+    border-radius: 3rem;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.theBest>span {
+    position: relative;
+    z-index: 2;
+}
+
+.textHero p {
+    margin-top: 20px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+}
+
+.textHero span:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+    color: white;
+}
+
+.figments {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.heroBtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:768px) {
+    .header>ul {
+        display: flex !important;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mediaMenu {
+        max-width: 400px;
+        min-width: 226px;
+        padding: 20px;
+        display: grid;
+        gap: 1rem;
+        display: none;
+        justify-content: start !important;
+    }
+
+    .allE {
+        background: #333;
+    }
+
+    .alSp {
+        width: 50px;
+        height: 40px;
+        display: grid;
+        padding: 5px;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .sp span {
+        width: 100%;
+        height: 2px;
+        display: block;
+        background: white;
+    }
+}

@@ -1,0 +1,10 @@
+.figment h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.figment p {
+    color: var(--gray);
+    text-transform: uppercase;
+}

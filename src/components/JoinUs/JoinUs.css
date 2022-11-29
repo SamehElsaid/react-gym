@@ -1,0 +1,63 @@
+.join {
+    display: flex;
+    gap: 10rem;
+    padding: 70px 0;
+}
+
+.join h3 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.join hr {
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+    position: absolute;
+    width: 10.5rem;
+}
+
+.join form {
+    background-color: gray;
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+.join form input {
+    background-color: initial;
+    border: none;
+    color: var(--lightgray);
+    outline: none;
+}
+.join form input::placeholder {
+    color: var(--lightgray);
+}
+.join form button {
+    background-color: var(--orange);
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.rightJoin {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .join{
+        display: grid;
+        gap: 2rem;
+    }
+    .join h3{
+        font-size: x-large;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}

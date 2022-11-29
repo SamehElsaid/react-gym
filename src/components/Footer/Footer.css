@@ -1,0 +1,28 @@
+footer {
+    padding: 70px 0;
+    border-top:  2px solid var(--lightgray);
+    overflow: hidden;
+}
+
+footer .frist {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+footer .frist img {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+footer .sec {
+    margin-top: 4rem;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer .sec img {
+    width: 10rem;
+}
